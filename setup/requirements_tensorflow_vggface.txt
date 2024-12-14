@@ -1,0 +1,15 @@
+tensorflow==2.3.1          # TensorFlow version compatible with keras-vggface
+keras==2.3.1               # Compatible version of Keras for keras-vggface
+tensorboard==2.3.0        # TensorBoard version matching TensorFlow 2.3.1
+matplotlib==3.7.1          # Latest stable version compatible with Python 3.6-3.10
+numpy==1.23.5              # Latest version compatible with TensorFlow 2.3.1
+ipykernel==6.22.0          # Needed for Jupyter Notebooks
+nbconvert==7.3.1           # For converting Jupyter notebooks to other formats
+tensorflow-datasets==4.9.2 # For loading datasets like Flowers
+keras-cv==0.5.1            # IoU metrics for bounding boxes (ensure compatibility with TF/Keras versions)
+ipywidgets==8.0.7          # For progress bars in TensorFlow datasets and Keras-CV
+scikit-learn==1.3.0        # For t-SNE calculations
+opencv-python==4.8.0.74    # For image processing, required by keras-cv tutorials
+keras-vggface==0.6         # Forked version of keras-vggface compatible with TensorFlow 2.x
+keras-applications==1.0.8  # Required for pre-trained models like VGGFace
+keras-preprocessing==1.1.2 # Dependency for Keras; handles data preprocessing
